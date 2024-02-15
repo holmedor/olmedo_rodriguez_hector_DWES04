@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "MEDIA DB",
+    "dateExported": "2024-02-10T19:46:52.638Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d6fa0e15-1dfd-41e2-8447-7cf1954999c6",
+            "colId": "7377890a-43dc-44bf-913f-51ce3e687688",
+            "containerId": "",
+            "name": "http://localhost/DWES04/public/media/get",
+            "url": "http://localhost/olmedo_rodriguez_hector_DWES04/api/v1/public/media/get",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-08T20:19:07.584Z",
+            "modified": "2024-02-09T17:53:10.041Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6de0bdd2-525d-46cb-862d-1d2ba23662b2",
+            "colId": "7377890a-43dc-44bf-913f-51ce3e687688",
+            "containerId": "",
+            "name": "http://localhost/DWES04/public/media/get/6",
+            "url": "http://localhost/olmedo_rodriguez_hector_DWES04/api/v1/public/media/get/6",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-08T20:19:07.585Z",
+            "modified": "2024-02-10T14:47:10.080Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5b216727-b494-4a88-9f86-1d5f8b92b5d4",
+            "colId": "7377890a-43dc-44bf-913f-51ce3e687688",
+            "containerId": "",
+            "name": "http://localhost/DWES04/public/media/delete/6",
+            "url": "http://localhost/olmedo_rodriguez_hector_DWES04/api/v1/public/media/delete/6",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-08T20:19:07.586Z",
+            "modified": "2024-02-10T14:47:02.995Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "097a66d4-08f2-49dc-b9d7-99a696a6dfc9",
+            "colId": "7377890a-43dc-44bf-913f-51ce3e687688",
+            "containerId": "",
+            "name": "http://localhost/DWES04/public/media/create",
+            "url": "http://localhost/olmedo_rodriguez_hector_DWES04/api/v1/public/media/create",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-08T20:19:07.587Z",
+            "modified": "2024-02-10T14:47:21.170Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "    {\n      \"id\": 6,\n      \"titulo\": \"Titulo 23\",\n      \"idADE\": 6,\n      \"medio\": \"LaserDisc\"\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f4456c26-2728-4d8d-8ace-229e27588750",
+            "colId": "7377890a-43dc-44bf-913f-51ce3e687688",
+            "containerId": "",
+            "name": "http://localhost/DWES04/public/media/update/6",
+            "url": "http://localhost/olmedo_rodriguez_hector_DWES04/api/v1/public/media/update/6",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-08T20:19:07.588Z",
+            "modified": "2024-02-10T14:47:33.996Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "    {\n      \"titulo\": \"TITULO TXATXI\"\n    }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
